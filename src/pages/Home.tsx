@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from '../components/Accordion';
+import Button from '../components/Button';
 import Navbar from '../components/Navbar';
 
 const Home = () => {
@@ -17,9 +18,14 @@ const Home = () => {
             Daftarkan akun segera untuk dapat menggunakan layanan kami secara
             gratis.
           </h2>
+          <Button
+            name="Daftar Akun"
+            href="/sign-up"
+            className="bg-blue-500 text-white text-xl rounded-full w-48 h-14 mt-10 hover:font-bold"
+          />
         </div>
       </main>
-      <Accordion/>
+      <Accordion />
     </div>
   );
 };

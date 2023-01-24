@@ -26,7 +26,7 @@ const Navbar = () => {
             <Button
               name="Login"
               href="/login"
-              className="bg-sky-500 text-white"
+              className="rounded-md w-24 border border-white  text-white hover:font-bold hover:bg-white hover:text-black"
             />
           </div>
         </div>
